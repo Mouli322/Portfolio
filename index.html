@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Responsive Personal Portfolio Website Design | Codehal</title>
+        
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet'>
+
+
+        <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>P V Mouli</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>Versatile individual with experience collecting, transforming, and organizing data for analysis to help
+                    make informed decisions. Excellent understanding and proficiency of platforms for effective data
+                    analyses, including SQL, Python, Excel, Tableau, and R. Strong communication, organizational, and
+                    analytical skills.</p>
+                
+                <div class="social-media">
+                    <a href="#" onclick="openFile('https://www.linkedin.com/in/pvmouli')"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" onclick="openFile('https://www.github.com/Mouli322')"><i class='bx bxl-github'></i></a>
+                    <!-- <a href="#"><i class='bx '></i></a>
+                    <a href="#"></a> -->
+                </div> 
+                <a href="#" onclick="openFile('PVMouliResume.pdf')" class='btn'>Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="boy.png" alt="">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="boy.png" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3> Data Science Enthusiast!</h3>
+                <p>Versatile individual with experience collecting, transforming, and organizing data for analysis to help
+                    make informed decisions. Excellent understanding and proficiency of platforms for effective data
+                    analyses, including SQL, Python, Excel, Tableau, and R. Strong communication, organizational, and
+                    analytical skills.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Data Science</h3>
+                    <p>Versatile individual with experience collecting, transforming, and organizing data for analysis to help
+                        make informed decisions. Excellent understanding and proficiency of platforms for effective data
+                        analyses, including SQL, Python, Excel, Tableau, and R. Strong communication, organizational, and
+                        analytical skills.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Data Analytics</h3>
+                    <p>Versatile individual with experience collecting, transforming, and organizing data for analysis to help
+                        make informed decisions. Excellent understanding and proficiency of platforms for effective data
+                        analyses, including SQL, Python, Excel, Tableau, and R. Strong communication, organizational, and
+                        analytical skills.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Big Data</h3>
+                    <p>Versatile individual with experience collecting, transforming, and organizing data for analysis to help
+                        make informed decisions. Excellent understanding and proficiency of platforms for effective data
+                        analyses, including SQL, Python, Excel, Tableau, and R. Strong communication, organizational, and
+                        analytical skills.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="facerecog2.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Face Recognition Attendance System</h4>
+                        <p>it is based on tkinter gui and sql and so on</p>
+                        <a href="#"><i class="bx bx-link-external" ></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="salesprediction.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>BigMart sales Prediction</h4>
+                        <p>Used various machine learning algorithms to predict the sales</p>
+                        <a href="#"><i class="bx bx-link-external" ></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="daimond.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Diamond Price Prediction</h4>
+                        <p>Used various machine learning algorithms to predict the price of diamond</p>
+                        <a href="#"><i class="bx bx-link-external" ></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="bankterm.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Bank Term Deposit</h4>
+                        <p>Used various machine learning algorithms to predict whether the customer will make term deposit or not</p>
+                        <a href="#"><i class="bx bx-link-external" ></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="hdbms.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Hospital Database Management System</h4>
+                        <p>Used various machine learning algorithms to predict the sales</p>
+                        <a href="#"><i class="bx bx-link-external" ></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact<span>Me</span></h2>
+
+            <form action="#" onsubmit="sendEmail(); reset(); return flase;">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" id="email" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" id="mobile" placeholder="Mobile Number">
+                    <input type="text" id="subject" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+
+            </form>
+        </section>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "venkatamouli2002@gmail.com",
+                    Password : "44887C9F6FAE1AF72EBF33F0E2E7DC1DF4ED",
+                    To : 'venkatamouli2002@gmail.com',
+                    From : document.getElementById("email"),
+                    Subject : document.getElementById("subject").value,
+                    Body : document.getElementById("message").value + document.getElementById("mobile").value
+                }).then(
+                message => alert(message)
+                );
+            }
+        </script>
+
+        <script>
+            // JavaScript
+            function openFile(filePath) {
+                window.open(filePath, '_blank');
+                }
+        </script>
+
+
+        <footer class="footer">
+            <div class="footer-iconTop">
+                <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
